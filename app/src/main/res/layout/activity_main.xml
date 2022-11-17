@@ -8,25 +8,48 @@
 
     <GridLayout
         android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:rowCount="2"
-    android:columnCount="3"
-    android:orientation="horizontal">
-    <TextView android:layout_columnWeight="1" />
-
-    <ImageView android:layout_columnWeight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/apple" /> />
-    <TextView android:layout_columnWeight="1" />
-    <TextView android:layout_columnWeight="1" />
-    <TextView android:layout_columnWeight="1" android:text="Apple" />
-    <TextView android:layout_columnWeight="1"></TextView>
-        <Button
-            android:id="@+id/button2"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:orientation="horizontal">
+        <TextView android:layout_columnWeight="1"
+            />
+        <TextView android:layout_columnWeight="1"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_column="1"
+            app:srcCompat="@drawable/big_lebowskimyrates" />/>
+        <TextView android:layout_columnWeight="1"/>
+        <TextView android:layout_columnWeight="1"/>
+        <TextView android:layout_columnWeight="1"
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="ToggleButton" />
+        <TextView android:layout_columnWeight="1"/>
+        <TextView android:layout_columnWeight="1" />
+        <TextView android:layout_columnWeight="1"/>
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"/>
+
+
+        <TextView android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/flecha"
+            android:layout_width="36dp"
+            android:layout_height="29dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="10pt"
+            app:srcCompat="@drawable/fletcha" />
 
     </GridLayout>
 
